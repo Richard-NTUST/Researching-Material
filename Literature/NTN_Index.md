@@ -350,11 +350,19 @@ UAV
 
 
 論文常見引用格式（IEEE format）
+
 [1] X. Lin et al., “5G from Space: An Overview of 3GPP Non-Terrestrial Networks,” IEEE Communications Magazine, 2021.
+
 [2] M. M. Azari et al., “Evolution of Non-Terrestrial Networks From 5G to 6G: A Survey,” IEEE Communications Surveys & Tutorials, 2022.
+
 [3] F. Rinaldi et al., “Non-Terrestrial Networks in 5G & Beyond: A Survey,” IEEE, 2020.
+
 [4] M. A. Jamshed et al., “A Tutorial on Non-Terrestrial Networks: Towards Global and Ubiquitous 6G Connectivity,” arXiv, 2024.
+
 [5] J. A. Hernandez et al., “A Brief Introduction to Satellite Communications for Non-Terrestrial Networks,” arXiv, 2023.
+
 [6] J. A. Hernandez et al., “A Brief Introduction to Satellite Communications for Non-Terrestrial Networks,” arXiv, 2023.
+
 [7]
+
 [8] 
