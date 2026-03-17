@@ -358,7 +358,3 @@ UAV
 [6] J. A. Hernandez et al., “A Brief Introduction to Satellite Communications for Non-Terrestrial Networks,” arXiv, 2023.
 [7]
 [8] 
-
-[7] J. A. Hernandez et al., “A Brief Introduction to Satellite Communications for Non-Terrestrial Networks,” arXiv, 2023.
-
-[8] J. A. Hernandez et al., “A Brief Introduction to Satellite Communications for Non-Terrestrial Networks,” arXiv, 2023.
