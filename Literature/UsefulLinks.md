@@ -17,6 +17,7 @@ https://trello.com/b/Mi8l1yge/internship
 ---
 
 Yang mode 
+
 https://forge.3gpp.org/rep/sa5/MnS/-/blob/Rel-19/yang-models/_3gpp-nr-nrm-ntnfunction.yang?ref_type=heads
 
 ---
@@ -24,10 +25,13 @@ https://forge.3gpp.org/rep/sa5/MnS/-/blob/Rel-19/yang-models/_3gpp-nr-nrm-ntnfun
 亭寬學長的筆記
 oai cn5g的安裝手冊：
 https://github.com/Kuan-K/2025_kuan_project/blob/main/OAI/CN5G%20built%20environment_.md
+
 地面網路E2E：
 https://github.com/Kuan-K/2025_kuan_project/blob/main/OAI/E2E%20hands-on.md
+
 NTN LEO與GEO E2E：
 https://github.com/Kuan-K/2025_kuan_project/blob/main/OAI/NTN_exercise.md
+
 RFsimulator：
 https://github.com/Kuan-K/2025_kuan_project/blob/main/OAI/rfsimulator.md
 
@@ -36,6 +40,7 @@ https://github.com/Kuan-K/2025_kuan_project/blob/main/OAI/rfsimulator.md
 又儀學長的筆記
 xeoverse介紹：
 https://github.com/AvisHuang/xeoverse/blob/main/README.md
+
 xeoverse程式碼的安裝包：
 https://github.com/raycg/xeoverse
 
@@ -45,12 +50,17 @@ https://github.com/raycg/xeoverse
 sns3的安裝手冊、背景知識、跑模擬器範例
 安裝手冊：
 https://github.com/kevin940822-beep/SNS3_kevin_project/blob/main/sns3/SNS3%20installation.md#sns3-installation
+
 背景知識：
 https://github.com/kevin940822-beep/SNS3_kevin_project/blob/main/sns3/Model%20Description.md#table-of-contents
+
 rtn模擬器的範例：
 https://github.com/kevin940822-beep/SNS3_kevin_project/blob/main/sns3/sat-rtn-system-test%20note.md#sat-rtn-system-test-examplecc
+
 fwd模擬器的範例：
 https://github.com/kevin940822-beep/SNS3_kevin_project/blob/main/sns3/sat-fwd-system-test-example%20note.md#sat-fwd-system-test-examplecc
+
+---
 beam hopping模擬器的範例：
 https://github.com/kevin940822-beep/SNS3_kevin_project/blob/main/sns3/sat-fwd-link-beam-hopping-example%20note.md#sat-fwd-link-beam-hopping-examplecc
 
