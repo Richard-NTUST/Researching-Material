@@ -383,9 +383,10 @@ UAV
 
 priority
 
-提供參考文獻資料-2 1️⃣ 5G from Space: An Overview of 3GPP Non-Terrestrial Networks
+1、提供參考文獻資料-2 1️⃣ 5G from Space: An Overview of 3GPP Non-Terrestrial Networks
 
-提供參考文獻資料-2 5️⃣ A Brief Introduction to Satellite Communications for Non-Terrestrial Networks
+2、亭寬學長的NTN筆記  https://github.com/Kuan-K/2025_kuan_project/blob/611b12fb33bc1e6e156d39e95317323b7f6d52c7/NTN.md
 
-提供參考文獻資料-2 8️⃣ 官方標準背景（3GPP）
+3、提供參考文獻資料-2 5️⃣ A Brief Introduction to Satellite Communications for Non-Terrestrial Networks
 
+4、提供參考文獻資料-2 8️⃣ 官方標準背景（3GPP）
