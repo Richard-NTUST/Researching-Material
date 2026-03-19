@@ -14,23 +14,38 @@
 
 7、閱讀第一篇文獻資料，5G from Space: An Overview of 3GPP  Non-Terrestrial Networks 
 
--> 何謂3GPP? 行動通訊的第三代規範。第三代，3rd Generation，合作夥伴計畫 Partnership Project
+-> 何謂3GPP? 
 
--> 大綱是啥? 過去的5G通訊依靠地面基地台，現在想辦法離地，那就是要靠天上飛的衛星
+行動通訊的第三代規範。第三代，3rd Generation，合作夥伴計畫 Partnership Project
 
--> 3GPP設立的15、16、17版本，依序有啥區別 15版本搞出地面5G，16版本加強，17版就是把5G用在非地面網路 Non-Terrestrial Networks (NTN)
+-> 大綱是啥? 
 
--> NTN種類有哪些? 衛星(satellite)、高空平台 (high altitude platform systems (HAPS))、地對空網路(air-to-ground network (ATG))
+過去的5G通訊依靠地面基地台，現在想辦法離地，那就是要靠天上飛的衛星
+
+-> 3GPP設立的15、16、17版本，依序有啥區別? 
+
+15版本搞出地面5G，16版本加強，17版就是把5G用在非地面網路 Non-Terrestrial Networks (NTN)
+
+-> NTN種類有哪些? 
+
+衛星(satellite)、高空平台 (high altitude platform systems (HAPS))、地對空網路(air-to-ground network (ATG))
 
 -> 衛星軌道有哪三種? 有哪些優缺點?
+
      類型	  全名	     高度	              特性
+     
      LEO	  低軌道	     ~500–2000 km	      延遲低、速度快
+     
      MEO	  中軌道	     ~2000–35000 km	    折衷
+     
      GEO	  同步軌道	   ~35786 km	        延遲高但固定不動
 
--> 為何低軌衛星會紅? 為何要與3GPP結合? 從經濟規模出發，越高越會Lag實用性差，但覆蓋面積大，低軌衛星剛好相反；用到3GPP是因為不想要重新設計新的協定
+-> 為何低軌衛星會紅? 為何要與3GPP結合? 
+
+從經濟規模出發，越高越會Lag實用性差，但覆蓋面積大，低軌衛星剛好相反；用到3GPP是因為不想要重新設計新的協定
 
 -> high altitude platform systems (HAPS) 是啥? 
+
    高空平台，可視為平流層的基地台
    
    代表：巨大的太陽能無人機、氣球
@@ -42,6 +57,7 @@
    覆蓋範圍：中
 
 -> LEO 是啥?
+
    低軌衛星，Low Earth Orbit
    
    代表：Starlink、OneWeb
@@ -53,6 +69,7 @@
    覆蓋：廣，但因為飛得太快，需要很多顆衛星輪流接力
 
 -> GEO 是啥?
+
    同步軌道，Geosynchronous Earth Orbiting
    
    代表：氣象衛星、傳統衛星電視
