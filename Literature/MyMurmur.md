@@ -1,4 +1,4 @@
-<img width="193" height="267" alt="image" src="https://github.com/user-attachments/assets/e776416a-de84-4c75-83c2-d844685ade0f" />**0319
+**0319
 
 1、Trello 上放的是實習回報，要注意的是General 跟 meeting time
 
