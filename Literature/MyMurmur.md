@@ -12,7 +12,7 @@
 
 6、分類好待讀資料的優先順序
 
-7、閱讀第一篇文獻資料，5G from Space: An Overview of 3GPP  Non-Terrestrial Networks 
+7、閱讀第一篇文獻資料，5G from Space: An Overview of 3GPP  Non-Terrestrial Networks   [Introduction 1 ]
 
 -> 何謂3GPP? 
 
@@ -94,3 +94,52 @@
 
      這幾週我正在研讀 3GPP 關於 NTN 的文獻，並在 GitHub 上建置相關研究筆記。很高興認識您！
 
+2、繼續閱讀第一篇文獻資料，5G from Space: An Overview of 3GPP  Non-Terrestrial Networks    [Introduction 2 ]
+
+-> 幾個關鍵英文縮寫
+
+   New Radio (NR)
+ 
+   narrowband IoT (NB-IoT)
+
+   Long-Term Evolution (LTE)
+
+-> What is NR?
+
+   New Radio，5G的全新無線電標準
+
+   forward compatibility, support for low latency, advanced antenna technologies, and spectrum flexibility
+
+-> What is LTE?
+
+   4G 行動通訊標準，長期演進技術
+
+   3GPP is studying the feasibility of adapting NB-IoT and LTE-M to support NTN
+
+-> What is the core of the article? compare to another essay?
+
+   multiple areas from radio access network to services and system aspects to core and terminals
+
+   design rationale
+
+3、閱讀第一篇文獻資料，5G from Space: An Overview of 3GPP  Non-Terrestrial Networks    [II. RADIO ACCESS NETWORKS FOR NR NTN 1 ]
+
+-> Key words
+
+   Rel-15 study
+
+   S-band 
+
+   Ka-band 
+
+   Earth-fixed beams
+
+   moving beams
+
+   handheld
+
+   Very Small Aperture Terminals (VSAT)
+
+4、研究如何製作流程圖的網站 Draw.io (diagrams.net)
+
+5、蒐集一些連結到 NTN.index
