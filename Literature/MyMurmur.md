@@ -96,7 +96,7 @@
 
 2、繼續閱讀第一篇文獻資料，5G from Space: An Overview of 3GPP  Non-Terrestrial Networks    [Introduction 2 ]
 
--> 幾個關鍵英文縮寫
+-> Key words
 
    New Radio (NR)
  
@@ -122,7 +122,7 @@
 
    design rationale
 
-3、閱讀第一篇文獻資料，5G from Space: An Overview of 3GPP  Non-Terrestrial Networks    [II. RADIO ACCESS NETWORKS FOR NR NTN 1 ]
+3、閱讀第一篇文獻資料，5G from Space: An Overview of 3GPP  Non-Terrestrial Networks    [II. RADIO ACCESS NETWORKS FOR NR NTN  A. Release-15 Study Item on NR NTN 1]
 
 -> Key words
 
@@ -143,3 +143,75 @@
 4、研究如何製作流程圖的網站 Draw.io (diagrams.net)
 
 5、蒐集一些連結到 NTN.index
+
+
+**0329
+
+1、閱讀第一篇文獻資料，5G from Space: An Overview of 3GPP  Non-Terrestrial Networks    [II. RADIO ACCESS NETWORKS FOR NR NTN  A. Release-15 Study Item on NR NTN 2]
+
+-> Key words
+
+   Terrestrial Networks  (TN)
+ 
+   Non-Terrestrial Networks (NTN)
+
+   Multipath
+
+   lineof-sight probability  (LoS)
+
+   Angular Spread
+
+   Delay Spread
+
+   Elevation Angle
+
+-> What is the most different between NT and NTN?
+
+  The signal networks are multipath, so it can interchange form different router, while in NTN networks are parallel, angular spread is close to zero, so 3GPP in NT is not suit for here.
+
+2、閱讀第一篇文獻資料，5G from Space: An Overview of 3GPP  Non-Terrestrial Networks    [II. RADIO ACCESS NETWORKS FOR NR NTN  A. Release-15 Study Item on NR NTN 3]
+
+-> key words
+
+   Free-Space Path Loss  (FSPL)
+
+   clutter loss  (CL)
+
+   shadow fading (SF)
+
+   scintillation
+
+   Clustered delay line  (CDL)
+
+   Tapped delay line  (TDL)
+
+-> What is the core information about Figure.2 ?
+
+   The x-axis is elevation angle , the y-axis is path loss scaled in dB. 
+
+   The more altitude, the more path loss.
+
+   The higher frequency, the more path loos.
+
+   The less elevation anglem the more path loss.  In 90 degree get the minimum of path loss.
+
+-> What kinds of path loss mentioned in the paragraph ?
+  
+   Clutter loss, shadow fading, scintillation, distance, frequency
+
+   Clutter loss means the singal is shield by building on the ground. It can be expected and considered as a constant.
+
+   Shadow fading means the singal is shield by building on the ground. It can not be expected and usually related to relating position.
+
+   Scintillation (閃爍) will happen in atmosphere when signal through the space to workplace. The lower angular spread, the higher it influence
+
+   Distance is specified in free-space path loss (FSPL)
+   
+   Frequency's impact was describe in #194 .
+
+
+-> If one want to simulate a satellite base station, what is the two channel setting it can select?
+
+   For 3GPP, it can choose CDL and TDL.  The two setting parameter is used to model the path loss except to distance.
+   
+  
