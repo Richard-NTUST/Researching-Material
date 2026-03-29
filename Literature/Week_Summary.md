@@ -1,4 +1,4 @@
-**0315-0321**
+**0316-0322**
 
 1. Create a github account and start to launch a repo to keep notes on github.
 
@@ -7,7 +7,7 @@
 3. Reading paper "5G from Space: An Overview of 3GPP Non-Terrestrial Networks" listing under the file "NTN_index", I have listed the priority what I want to do now.
 
 
-**0322-0329**
+**0323-0329**
 
 1. Create a response to Prof. Gu on LINE.
 
