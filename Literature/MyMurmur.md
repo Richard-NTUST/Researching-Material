@@ -203,7 +203,7 @@
 
    Shadow fading means the singal is shield by building on the ground. It can not be expected and usually related to relating position.
 
-   Scintillation (閃爍) will happen in atmosphere when signal through the space to workplace. The lower angular spread, the higher it influence
+   Scintillation (閃爍) is describing that some rapid signal fluctuations caused by atmospheric anomalies. It is particularly severe at lower elevation angles.
 
    Distance is specified in free-space path loss (FSPL)
    
