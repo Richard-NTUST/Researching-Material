@@ -9,4 +9,8 @@
 
 **0322-0329**
 
-1、
+1. Create a response to Prof. Gu on LINE.
+
+2. Gather useful links from LINE and understand how to start to read a paper.
+
+3. Read paper "5G from Space: An Overview of 3GPP Non-Terrestrial Networks" listing under the file "NTN_index", I finish part 2-A part.
