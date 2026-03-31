@@ -218,8 +218,13 @@
 **0331
 
 1、寫下午跟顧教授的減短自我介紹
-   Hello Prof. Gu, nice to meet you. I am Richard, a sophomore here
-   My project focuses on 5G Non-Terrestrial Networks, especially low earth orbit satellite
-   Recently, I have been reading 3GPP specifications. I just learned how Elevation Angle affects Path Loss, and the concepts of TDL/CDL channel models.
-   My next step is to study the OpenAir Interface NTN code. I know OAI is very famous in France, so I am very excited to learn from you today. Thank you!"
-  
+     
+     Hello Prof. Gu, nice to meet you. I am Richard, a sophomore here
+     
+     My project focuses on 5G Non-Terrestrial Networks, especially low earth orbit satellite
+   
+     Recently, I have been reading 3GPP specifications. I just learned how Elevation Angle affects Path Loss, and the concepts of TDL/CDL channel models.
+
+     My next step is to study the OpenAir Interface NTN code. I know OAI is very famous in France, so I am very excited to learn from you today. Thank you!
+
+
