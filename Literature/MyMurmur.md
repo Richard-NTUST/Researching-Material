@@ -228,3 +228,20 @@
      My next step is to study the OpenAir Interface NTN code. I know OAI is very famous in France, so I am very excited to learn from you today. Thank you!
 
 
+2、整理今天下午的討論
+
+     1、有出國機會，在二升三或三升四的暑假，是公司實習或交換，如果都要去的話要用不同企劃，錢錢學校跟實驗室會負責
+
+     2、Trello是以前在用的，現在主要都改在github上回報
+
+     3、Kenny學長做AI結合、richard做基地台攻擊、__學長做基地測量，先跟Kenny做，然後回報成果，在去做別人的，最後確定自己想做哪個
+
+     4、認識Joanna學姊，了解NTN群組11人是誰
+
+     5、確認系排50%以內高機率可以留下來
+
+     6、之後每兩星期開會回報進度，時間與如何進行之後在群組討論
+
+     7、認識另外兩位專題同學，要了聯絡方式，之後創google文字編輯器互相聯絡
+
+     
