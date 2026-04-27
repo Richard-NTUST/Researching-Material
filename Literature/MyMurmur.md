@@ -301,7 +301,7 @@
 
    For SDAP, it is not necessary to introduce any modification.
 
-   For PDCP and RLC, it need to plus status reporting and sequence numbers.
+   For PDCP and RLC, it need to enhance status feedback and sequence numbers.
 
    For MAC, HARQ and DRX should have a great change for they works relying on timer.
 
@@ -321,19 +321,19 @@
 
 -> What is the main information mentioned in this paragraph?
 
-   UE's communication via satellites moving around fast in the space will track area frquently and UE's interface will asssume you are moving fastly, which casue to run out of battery.
+   UE's communication via satellites moving around fast in the space will track area frquently and UE's interface will asssume you are moving fastly, which cause to run out of battery.
     
    The solution is to define cell selection as additional measure parameter.
 
    Satellites moving around fast in the space also impact UE's handshake.
 
-    UE	                    attenna	          approach	     
+    UE	                    antenna	          approach	     
      
     Handheld UE	          weak                S-band
        
     VSAT / Phased array	     strong              S-band / Ka-band
 
--> what is the three physical problem to comeover?
+-> what is the three physical problem to overcome?
 
    Long propagation delays
 
