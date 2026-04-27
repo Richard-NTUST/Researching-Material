@@ -1,4 +1,4 @@
-**0319
+<img width="1007" height="562" alt="image" src="https://github.com/user-attachments/assets/f61f42c7-b92e-4314-ba44-9da51eef5361" />**0319
 
 1、Trello 上放的是實習回報，要注意的是General 跟 meeting time
 
@@ -248,3 +248,96 @@
 
 
 **0427
+
+1、過去一個月在準備期中考，但我沒有百分百善用時間，感覺有點在逃避這裡
+
+2、閱讀第一篇文獻資料，5G from Space: An Overview of 3GPP  Non-Terrestrial Networks    [II. RADIO ACCESS NETWORKS FOR NR NTN  B Release-16 Study Item on NR NTN 1]
+
+-> Key words
+
+   Rel-15
+
+   Rel-16
+   
+   3GPP TR 38.821
+
+-> What is the main information mentioned in this paragraph?
+
+   Previous version Rel-15 defines some parameters that how NR supports to NTN, now Rel-16 is finding the least efforts to put 5G in the space.
+
+   What the Rel-16 modify are architecture, higherlayer protocols, and physical layer. The details stores in 3GPP TR 38.821.
+
+3、閱讀第一篇文獻資料，5G from Space: An Overview of 3GPP  Non-Terrestrial Networks    [II. RADIO ACCESS NETWORKS FOR NR NTN  B Release-16 Study Item on NR NTN 2]
+
+-> key words
+
+   Next-generation RAN (NG-RAN) 
+
+   5G base station (gNB)
+
+   central unit (CU)
+
+   distributed unit (DU)
+
+   user plane (UP)
+
+   control plane (CP)
+
+   medium access control (MAC)
+
+   radio link control (RLC)
+
+   packet data convergence protocol (PDCP)
+
+   service data adaptation protocol (SDAP) 
+
+   discontinuous reception (DRX)
+
+   hybrid automatic repeat request (HARQ)
+
+-> What is the main information mentioned in this paragraph?
+
+   Moving 5G communication system to space is avaliable, but long propagation delays must cause some question in some aspects.
+
+   For SDAP, it is not necessary to introduce any modification.
+
+   For PDCP and RLC, it need to plus status reporting and sequence numbers.
+
+   For MAC, HARQ and DRX should have a great change for they works relying on timer.
+
+4、閱讀第一篇文獻資料，5G from Space: An Overview of 3GPP  Non-Terrestrial Networks    [II. RADIO ACCESS NETWORKS FOR NR NTN  B Release-16 Study Item on NR NTN 3]
+
+-> Key words
+
+   idle mode
+
+   user equipment (UE) 
+
+   very small aperture terminal (VSAT)
+
+   Doppler shifts
+
+   moving cells
+
+-> What is the main information mentioned in this paragraph?
+
+   UE's communication via satellites moving around fast in the space will track area frquently and UE's interface will asssume you are moving fastly, which casue to run out of battery.
+    
+   The solution is to define cell selection as additional measure parameter.
+
+   Satellites moving around fast in the space also impact UE's handshake.
+
+    UE	                    attenna	          approach	     
+     
+    Handheld UE	          weak                S-band
+       
+    VSAT / Phased array	     strong              S-band / Ka-band
+
+-> what is the three physical problem to comeover?
+
+   Long propagation delays
+
+   Large Doppler shifts, it means fast movement cause to signal's frquency be extended or shrink
+
+   Moving cells, gNB also moving in the space rather than stationary on the ground.
+   
