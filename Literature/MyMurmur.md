@@ -335,7 +335,7 @@
 
 -> what is the three physical problem to overcome?
 
-   Long propagation delays
+   Long propagation delays 
 
    Large Doppler shifts, it means fast movement cause to signal's frquency be extended or shrink
 
