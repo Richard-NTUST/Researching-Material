@@ -18,4 +18,6 @@
 
 **0427-0503--
 
-1. Read paper "5G from Space: An Overview of 3GPP Non-Terrestrial Networks" listing under the file "NTN_index", I finish part 2-A part. 
+1. Read paper "5G from Space: An Overview of 3GPP Non-Terrestrial Networks" listing under the file "NTN_index", I finish II. RADIO ACCESS NETWORKS FOR NR NTN B Release-16 Study Item on NR NTN. 
+
+2. Make sure the goal
