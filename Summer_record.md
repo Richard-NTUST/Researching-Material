@@ -31,8 +31,8 @@ It is to:
 
 ### First Week Checklist
 
-- O Read the assigned thesis, paper, README, and design documents.
-- O Access the laboratory GitHub, Overleaf, and pCloud.
+-  Read the assigned thesis, paper, README, and design documents.
+-  Access the laboratory GitHub, Overleaf, and pCloud.
 - [ ] Clone the research repository.
 - [ ] Reproduce one reference experimental result.
 - [ ] Submit one **[Daily Note](../templates/G-daily-note.md)**.
