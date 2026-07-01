@@ -29,8 +29,8 @@ A clear assignment helps everyone understand:
 | Item | Description |
 |---|---|
 | Research Title | |
-| Assigned Student | Richard(徐銘亨) |
-| Student ID | B11206144 |
+| Assigned Student |Richard(徐銘亨)|
+| Student ID |B11206144|
 | Advisor | |
 | Start Date | |
 | Expected Completion Date | |
@@ -39,7 +39,7 @@ A clear assignment helps everyone understand:
 
 | Item | Description |
 |---|---|
-| Research Objective | Energy Saving |
+| Research Objective |Energy Saving|
 | Background | |
 | System Boundary | |
 | Expected Contribution | |
