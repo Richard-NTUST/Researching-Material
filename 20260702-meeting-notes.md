@@ -27,7 +27,7 @@
 | Topic | Reference |
 | ----- | --------- |
 | 1. 實驗室會議與 Demo 規範 (全英文報告、直播錄音錄影、Demo 需關閉自身音訊防 echo、注意交接版本問題) | 會議口頭宣達 |
-| 2. 實驗室資源與排版參考 (會議檔案放置於指定 Google Drive，過往資料洽 Ian 學長，GitHub 排版暫參考承諭學長) | [Google Drive](https://drive.google.com/drive/folders/1GV_zlQZgghiazh1a_ULu-EIskeqPv6VZ) |
+| 2. 實驗室資源與排版參考 (會議檔案放置於指定 Google Drive，過往資料洽 Will 學長，GitHub 排版暫參考承諭學長) | [Google Drive](https://drive.google.com/drive/folders/1GV_zlQZgghiazh1a_ULu-EIskeqPv6VZ) |
 | 3. Energy Saving 主題確立方向：檢視現有碩士論文尋找改進點，鎖定 RU power modeling | David 學長資料、Tobby & Sheryl 交接內容 |
 
 ---
