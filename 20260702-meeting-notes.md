@@ -9,8 +9,8 @@
 | Item         | Description |
 | ------------ | ----------- |
 | Date         | 2026/07/02  |
-| Participants | 鄭教授、Richard 及實驗室成員 |
-| Topic        | 實驗室開會規範宣達與 Energy Saving 專題方向確立 |
+| Participants | BMW 實驗室成員 + 短期實習交換生 |
+| Topic        | 每個人的進度報告，含專題生 |
 
 ---
 
@@ -18,7 +18,7 @@
 
 | Pending Task | Owner | Status                     | Remarks |
 | ------------ | ----- | -------------------------- | ------- |
-| 確認研究主題與下一步計畫 | Richard | [x] Done [ ] Pending [ ] Blocked | 已於會議中確立方向 |
+| 確認研究主題與下一步計畫 | Richard | [x] Done [ ] Pending [ ] Blocked | 先從學長姊的論文開始下手，要分清貢獻度 |
 
 ---
 
