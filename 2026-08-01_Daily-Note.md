@@ -1,6 +1,6 @@
 ﻿# Daily Note
 
-> 依據 Open-Research-Playbook `templates/G-daily-note.md` 格式記錄。
+> 依據 `[templates/G-daily-note.md](https://github.com/raycg/Open-Research-Playbook/blob/main/templates/G-daily-note.md)` 格式記錄。
 
 ---
 
