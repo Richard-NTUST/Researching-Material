@@ -65,8 +65,6 @@
 
 今天過程中順便摸熟的工具操作，跟 Track A 環境建置本身無關，不算在任一 Milestone 內，僅記錄供未來查閱：
 
-* Claude Code CLI 操作：在不同 Terminal 呼叫前先確認路徑，再輸入 `claude`；用方向鍵 + `Ctrl+X` 刪除不需要的對話紀錄；用 `/compact`、`/model` 管理與切換模型；可改為在筆記本中編輯生成內容。
-* Claude Code CLI 中文輸入問題：可改輸出 JSON 檔處理（今日未採用）；改用黑色圖示的「命令提示字元」（cmd，需以系統管理員身分執行）取代藍色圖示的 PowerShell 呼叫 claude，解決中文輸入問題。
 * Ubuntu 操作快捷鍵：`Ctrl+Alt+T` 開啟 Terminal；`Ctrl+Shift+C` 為 Copy（非 Windows 慣用的 `Ctrl+C`）。
 
 #### Today's Biggest Lesson
