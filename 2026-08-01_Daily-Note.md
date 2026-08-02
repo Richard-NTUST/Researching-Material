@@ -40,9 +40,9 @@
 
 |Task|Status|Actual Time|Evidence|
 |-|-|-|-|
-|Ubuntu 雙系統安裝於 D: 硬碟|☒ Done|4hr|機型 ASUS TUF Gaming F15 (FX507ZV4)；Ubuntu 26.04 LTS 裝於 Disk 1（D:），Disk 0（C:）完全未動。<br>1. 備份資料：僅備份「遺失會哭」等級的重要資料；嘗試用傳統 1T HDD（需轉接線）備份，過程中拆機取出該硬碟（[圖片4](圖片4.webp)）；後改考慮雲端備份重要圖片；順便整理並刪除 D: 上不再使用的檔案（Vivado、LTSpice 等課用軟體）。<br>2. 嘗試備份 BitLocker 復原金鑰：至 Microsoft 帳號頁面查詢，因平時未登入 Microsoft 帳號，確認未啟用需要金鑰的加密（[[圖片1]](https://drive.google.com/file/d/1xcenucaMKWl0TgLSVTNMNiiV67WiTiVc/view?usp=drive_link)），故無金鑰問題，繼續備份資料。過程中曾插入隨身碟，因隨身碟老化一度無法退出並卡在讀取狀態，強制拔除後確認資料無損，重插後恢復正常讀取。<br>3. 確定環境：`Confirm-SecureBootUEFI` → True；`Get-BitLockerVolume`（[圖片2](圖片2.png)）；`manage-bde -protectors -get C:` / `D:`（[圖片3](圖片3.png)）確認無金鑰問題；分割 D: 硬碟給 Ubuntu 使用（[圖片6](圖片6.png)）。PowerShell `Get-Partition` 確認 Disk 1 Partition 3 = EFI ~1GB、Partition 4 = ext4 root ~159GB。<br>4. 用 Rufus 製作 Ubuntu 安裝隨身碟（[圖片7](圖片7.png)），過程中排除彈窗問題（[圖片8](圖片8.png)）。<br>5. 確認 Ubuntu 安裝位置（[圖片5](圖片5.png)）；依指引安裝，過程較快未逐步截圖（代表順利無異常），後續改用 Ubuntu Terminal 確認環境正確。<br>6. 確保雙系統可自由切換：BIOS(F2) 手動切換開機順序，兩邊皆可正常進入（[圖片9](圖片9.jpg)）。|
+|Ubuntu 雙系統安裝於 D: 硬碟|☒ Done|4hr|機型 ASUS TUF Gaming F15 (FX507ZV4)；Ubuntu 26.04 LTS 裝於 Disk 1（D:），Disk 0（C:）完全未動。<br>1. 備份資料：僅備份「遺失會哭」等級的重要資料；嘗試用傳統 1T HDD（需轉接線）備份，過程中拆機取出該硬碟（[[圖片4]](https://drive.google.com/file/d/19WgzyultnkE24M7FtyZ6iAKiPKhIBbi6/view?usp=drive_link)）；後改考慮雲端備份重要圖片；順便整理並刪除 D: 上不再使用的檔案（Vivado、LTSpice 等課用軟體）。<br>2. 嘗試備份 BitLocker 復原金鑰：至 Microsoft 帳號頁面查詢，因平時未登入 Microsoft 帳號，確認未啟用需要金鑰的加密（[[圖片1]](https://drive.google.com/file/d/1xcenucaMKWl0TgLSVTNMNiiV67WiTiVc/view?usp=drive_link)），故無金鑰問題，繼續備份資料。過程中曾插入隨身碟，因隨身碟老化一度無法退出並卡在讀取狀態，強制拔除後確認資料無損，重插後恢復正常讀取。<br>3. 確定環境：`Confirm-SecureBootUEFI` → True；`Get-BitLockerVolume`（[[圖片2]](https://drive.google.com/file/d/1o5lHx9wGwtEqwoeDBhikEI9eeJlFufO9/view?usp=drive_link)）；`manage-bde -protectors -get C:` / `D:`（[[圖片3]](https://drive.google.com/file/d/1jMtBszaLgmzwcsIpbfMOsqyiiGVOGV8-/view?usp=drive_link)）確認無金鑰問題；分割 D: 硬碟給 Ubuntu 使用（[[圖片6]](https://drive.google.com/file/d/1G6PulhMFECGqvcNk3qasfGXSdpzPwrxZ/view?usp=drive_link)）。PowerShell `Get-Partition` 確認 Disk 1 Partition 3 = EFI ~1GB、Partition 4 = ext4 root ~159GB。<br>4. 用 Rufus 製作 Ubuntu 安裝隨身碟（[[圖片7]](https://drive.google.com/file/d/1yk2QK-loh5ULI8XmQOrAHkhkpe2vDryp/view?usp=drive_link)），過程中排除彈窗問題（[[圖片8]](https://drive.google.com/file/d/1DCI1t8o9GQIpaKCg6Z_B8Gfi0NTWqIGh/view?usp=drive_link)）。<br>5. 確認 Ubuntu 安裝位置（[[圖片5]](https://drive.google.com/file/d/1yDZKCow0zm7E3A_XZ-b4ahsnHIZffKxD/view?usp=drive_link)）；依指引安裝，過程較快未逐步截圖（代表順利無異常），後續改用 Ubuntu Terminal 確認環境正確。<br>6. 確保雙系統可自由切換：BIOS(F2) 手動切換開機順序，兩邊皆可正常進入（[[圖片9]](https://drive.google.com/file/d/1gkqIiWWFDicHetNv0RuRq7mi5fnscp5M/view?usp=drive_link)）。|
 |RAPL 可讀性驗證|☒ Done|2hr|`ls /sys/class/powercap/` 輸出 `intel-rapl`, `intel-rapl-mmio`, `intel-rapl-mmio:0`, `intel-rapl:0`, `intel-rapl:0:0`, `intel-rapl:0:1`, `intel-rapl:1`（不需 modprobe）；`sudo cat /sys/class/powercap/intel-rapl:0/energy_uj` 讀到 `8950256567`|
-|Track A 軟體鏈安裝與驗證|☒ Done|2hr|1. iperf3 安裝，啟動時彈窗詢問是否背景執行，選擇「否」（[圖片10](圖片10.webp)）。<br>2. `pip3 install pandas matplotlib seaborn --break-system-packages`（因 Ubuntu 26.04 PEP668 限制）；另用 `echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc` 消除 PATH warning。<br>3. Docker：`sudo apt install -y docker.io`、`sudo usermod -aG docker $USER`；`docker --version` 確認為 `Docker version 29.1.3, build 29.1.3-0ubuntu4.1`。<br>4. 啟動 Scaphandre 容器：`docker run -d --name scaphandre --privileged -v /sys/class/powercap:/sys/class/powercap -p 8080:8080 hubblo/scaphandre prometheus`。<br>5. `curl localhost:8080/metrics \| grep scaph_host_power` 確認此版本沒有 `scaph_host_power` metric（已知落差，見下）。<br>6. `curl localhost:8080/metrics \| head -50` 取得正確結果，含 `scaph_domain_power_microwatts`（core ≈1.7W, uncore ≈0.12W）、`scaph_socket_rapl_mmio_energy_microjoules`（[圖片11](圖片11.webp)）— RAPL → Scaphandre → Prometheus HTTP 全鏈路打通。|
+|Track A 軟體鏈安裝與驗證|☒ Done|2hr|1. iperf3 安裝，啟動時彈窗詢問是否背景執行，選擇「否」（[[圖片10]](https://drive.google.com/file/d/1z7kDZrjRdpC-6l76OzNXnAZtCqwp8bS1/view?usp=drive_link)）。<br>2. `pip3 install pandas matplotlib seaborn --break-system-packages`（因 Ubuntu 26.04 PEP668 限制）；另用 `echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc` 消除 PATH warning。<br>3. Docker：`sudo apt install -y docker.io`、`sudo usermod -aG docker $USER`；`docker --version` 確認為 `Docker version 29.1.3, build 29.1.3-0ubuntu4.1`。<br>4. 啟動 Scaphandre 容器：`docker run -d --name scaphandre --privileged -v /sys/class/powercap:/sys/class/powercap -p 8080:8080 hubblo/scaphandre prometheus`。<br>5. `curl localhost:8080/metrics \| grep scaph_host_power` 確認此版本沒有 `scaph_host_power` metric（已知落差，見下）。<br>6. `curl localhost:8080/metrics \| head -50` 取得正確結果，含 `scaph_domain_power_microwatts`（core ≈1.7W, uncore ≈0.12W）、`scaph_socket_rapl_mmio_energy_microjoules`（[[圖片11]](https://drive.google.com/file/d/1fq-krIp3lm2gAOGC-6_vtCuTh-6KXa-D/view?usp=drive_link)）— RAPL → Scaphandre → Prometheus HTTP 全鏈路打通。|
 
 #### Pending Tasks and Blockers
 
@@ -70,14 +70,14 @@
 #### Today's Biggest Lesson
 
 ```text
-第一次建立雙系統，要先備份資料，前準備(不在這分清單上)比我想得還要久，我還有順便整理我的環境，刪除之前上課用到、但未來不會用的Vivado、LTSpice等等的。此外，確認哪些檔按要備份，以及利用雲端硬碟備份，所需上傳時間比我想得還要多。接著是建立雙系統後，出現的意外比我想得還多，先是 F8 失敗要用 F2，因為我自己電腦的問題。再來是 Ubunto 介面不熟悉，我習慣Windows下的 Ctrl+C 作為 Copy，諸如此類的還有 Ubuntu 下想用中文輸入但很不方便 + 額外處理輸入法、調整安裝後系統時間、確認路徑等等都是意外的事情。還有，Scaphandre 那裡的意外，也是沒想到的。
+第一次建立雙系統，要先備份資料，前準備比我想得還要久，我還有順便整理我的環境，刪除之前上課用到、但未來不會用的Vivado、LTSpice等等的。此外，確認哪些檔按要備份，以及利用雲端硬碟備份，所需上傳時間比我想得還要多。接著是建立雙系統後，出現的意外比我想得還多，先是 F8 失敗要用 F2，因為我自己電腦的問題。再來是 Ubunto 介面不熟悉，我習慣Windows下的 Ctrl+C 作為 Copy，諸如此類的還有 Ubuntu 下想用中文輸入但很不方便 + 額外處理輸入法、調整安裝後系統時間、確認路徑等等都是意外的事情。還有，Scaphandre 那裡的意外，也是沒想到的。
 ```
 
 ---
 
 ### AI Daily Self-review
 
-依 [E-ai-daily-self-review-prompt.md](Open-Research-Playbook/templates/E-ai-daily-self-review-prompt.md) 執行：
+依 [[E-ai-daily-self-review-prompt.md]](https://github.com/raycg/Open-Research-Playbook/blob/main/templates/E-ai-daily-self-review-prompt.md) 執行：
 
 ## Overall Assessment
 
@@ -93,15 +93,15 @@ None identified — Plan 表的三項任務都出現在 Review 表，狀態/實�
 
 ## Deliverable and Planning Issues
 
-None identified — 三項產出（分割區配置確認、RAPL 節點與數值、Scaphandre 真實 metrics 回傳）皆為可驗證的具體結果，非模糊活動。「附帶記錄」段落（Claude Code CLI 操作、Ubuntu 快捷鍵）已明確標註與今日 Goal/Milestone 無直接對應，屬揭露性質而非強行掛在 Milestone 上，符合 goal alignment 原則。
+None identified — 三項產出（分割區配置確認、RAPL 節點與數值、Scaphandre 真實 metrics 回傳）皆為可驗證的具體結果，非模糊活動。「附帶記錄」段落（Ubuntu 快捷鍵）已明確標註與今日 Goal/Milestone 無直接對應，屬揭露性質而非強行掛在 Milestone 上，符合 goal alignment 原則。
 
 ## Required Revisions
 
-None — 前次要求的「補上證據超連結」已於本次修訂完成。
+None 前次要求的「補上證據超連結」已補上
 
 ## Recommendations for the Next Working Day Plan
 
-沿用已排定的步驟 2 三項任務（讀 Methodology/SOP → 執行重現腳本 → QC gate），這些皆有 `吸收 David 資料流程.md` 支持，暫無需新增建議。
+沿用已排定的步驟 2 三項任務（讀 Methodology/SOP → 執行重現腳本 → QC gate），這些皆有 `[吸收 David 資料流程.md](https://github.com/Richard-NTUST/Researching-Material/blob/23e9027ceef8acb15f96cb674d3abdfccaa15805/%E5%90%B8%E6%94%B6%20David%20%E8%B3%87%E6%96%99%E6%B5%81%E7%A8%8B.md)` 支持，暫無需新增建議。
 
 ## Questions for the Researcher
 
@@ -120,9 +120,9 @@ None required — 若之後每篇日誌都比照這次的「資料夾 + 超連�
 
 |Priority|Task|Related Milestone or Action Item|Expected Deliverable|
 |-|-|-|-|
-|P1|讀 `docs/FinalReport/01_Methodology_Reproducible_Measurement.md` 與 `03_Standard_Operating_Procedure.md`|`吸收 David 資料流程.md`|理解場景矩陣（Idle → Load-L/M/H × 3 repeats）與執行 SOP，含 troubleshooting table|
-|P2|依序啟動 Scaphandre → `iperf3 -s` → 執行 `scripts/run_week4_gap_run.sh` 跑完整 Idle→Load→Idle 序列|`吸收 David 資料流程.md`|產出 `markers.csv` + `power_uw.txt`（注意套用 `scaph_domain_power_microwatts` 取代 guide 原文 metric 名）|
-|P3|執行 `python scripts/analyze_week3_data.py` 產圖，並對照參考圖 `assets/2026-01-28/plots/gap_analysis_sensitivity.png` 做 QC gate|`吸收 David 資料流程.md`|時序圖、線性度箱型圖、統計摘要；QC 判準：Idle <10W、Load >20W、平台段平坦、markers.csv 每個事件皆有 Start/Stop|
+|P1|讀 `docs/FinalReport/01_Methodology_Reproducible_Measurement.md` 與 `03_Standard_Operating_Procedure.md`|`[吸收 David 資料流程.md](https://github.com/Richard-NTUST/Researching-Material/blob/23e9027ceef8acb15f96cb674d3abdfccaa15805/%E5%90%B8%E6%94%B6%20David%20%E8%B3%87%E6%96%99%E6%B5%81%E7%A8%8B.md)`|理解場景矩陣（Idle → Load-L/M/H × 3 repeats）與執行 SOP，含 troubleshooting table|
+|P2|依序啟動 Scaphandre → `iperf3 -s` → 執行 `scripts/run_week4_gap_run.sh` 跑完整 Idle→Load→Idle 序列|`[吸收 David 資料流程.md](https://github.com/Richard-NTUST/Researching-Material/blob/23e9027ceef8acb15f96cb674d3abdfccaa15805/%E5%90%B8%E6%94%B6%20David%20%E8%B3%87%E6%96%99%E6%B5%81%E7%A8%8B.md)`|產出 `markers.csv` + `power_uw.txt`（注意套用 `scaph_domain_power_microwatts` 取代 guide 原文 metric 名）|
+|P3|執行 `python scripts/analyze_week3_data.py` 產圖，並對照參考圖 `assets/2026-01-28/plots/gap_analysis_sensitivity.png` 做 QC gate|`[吸收 David 資料流程.md](https://github.com/Richard-NTUST/Researching-Material/blob/23e9027ceef8acb15f96cb674d3abdfccaa15805/%E5%90%B8%E6%94%B6%20David%20%E8%B3%87%E6%96%99%E6%B5%81%E7%A8%8B.md)`|時序圖、線性度箱型圖、統計摘要；QC 判準：Idle <10W、Load >20W、平台段平坦、markers.csv 每個事件皆有 Start/Stop|
 
 ---
 
@@ -130,11 +130,11 @@ None required — 若之後每篇日誌都比照這次的「資料夾 + 超連�
 
 ### Related Documents
 
-* [吸收 David 資料流程.md]
-* [Research Playbook]
+* [[吸收 David 資料流程.md]](https://github.com/Richard-NTUST/Researching-Material/blob/23e9027ceef8acb15f96cb674d3abdfccaa15805/%E5%90%B8%E6%94%B6%20David%20%E8%B3%87%E6%96%99%E6%B5%81%E7%A8%8B.md)
+* [[Research Playbook]](https://github.com/raycg/Open-Research-Playbook/tree/main)
 
 ### Related Templates
 
-* [Meeting Notes]
-* [AI Daily Self-review Prompt]
+* [[Meeting Notes]](https://github.com/raycg/Open-Research-Playbook/blob/main/templates/F-meeting-notes.md)
+* [[AI Daily Self-review Prompt]](https://github.com/raycg/Open-Research-Playbook/blob/main/templates/E-ai-daily-self-review-prompt.md)
 
