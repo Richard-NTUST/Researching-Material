@@ -32,7 +32,7 @@
 |會議主持與語言慣例|首次會議不確定主持人，Richard 自願先開始；Ray 表示直接開始、不用過多寒暄。Richard 以中文報告（不確定何時須明確使用英文，會後已向 Kevin 請教）|
 |Richard 的銜接進度|Ray 交代：TEEP David 將於 0820 離開，之後無人可再教 Richard，須趁 David 還在台灣時盡快學習。Richard 報告時承諾會將簡報放上 git 並以雲端硬碟共享（已執行）|
 |Ray 要求全員撰寫專題目標與規劃並貼上群組|依圖片1截圖，Ray 原文|
-|會議紀錄規範|Ray 要求所有人今天都要有 meeting 紀錄；Kevin 與 Kuan（大四生）作為示範，將自己的成果連結丟上群組。**證據（圖片1）**：Kevin 貼出 https://github.com/bmw-ece-ntust/Kevin\_Handover\_note/issues/2#issuecomment-5128652454 ；Kuan（吳亭寬）貼出 https://github.com/Kuan-K/Metanoia\_intern\_kuan2026/issues/2#issue-5018378510|
+|會議紀錄規範|Ray 要求所有人今天都要有 meeting 紀錄；Kevin 與 Kuan（大四生）作為示範，將自己的成果連結丟上群組。**證據（圖片1）**：Kevin 貼出 https://github.com/bmw-ece-ntust/Kevin\_Handover\_note/issues/2#issuecomment-5128652454 ；Kuan（貼出 https://github.com/Kuan-K/Metanoia\_intern\_kuan2026/issues/2#issue-5018378510|
 |下次會議與週期|下次開會 2026/08/06 14:00，同一 Teams 連結；之後改為每週固定開會，出席人員不變|
 |程式能力佐證（CV / EURECOM）|Ray 對要去 EURECOM 時習的 Kuan、Kevin 提醒，應繳交 CV 並佐證程式能力。與 Kevin\_meeting\_notes.md / kuan\_meeting\_notes.md 記錄相同，這裡以 Kevin/Kuan 自己的記錄版本為準。此為大四生的實習相關事宜，不屬於 Richard 的追蹤範圍，僅記錄備查。Richard 自己延伸思考：未來若要透過 Ray 取得實習機會或出國，也需要程式能力佐證，想準備 LeetCode——此為 Richard 自身想法，非會議正式指派要求，且明確不急、無時間壓力（Richard 自評重要性類比多益金證：有更好，沒有也沒差）|
 |專題初稿單期程|2026/08/15–2026/08/30 須完成專題初稿單，即 `01\_專題規劃與日誌\_學生姓名.md` 的內容|
