@@ -12,7 +12,7 @@
 
 ### Short-term Goal
 
-* **Goal 1：** 完成 Track A（軟體代理功耗量測）重現實驗的環境建置，作為 `claude\\\_plan\\\_建議.txt` 步驟 2（Track A 重現）的前置條件。
+* **Goal 1：** 完成 Track A（軟體代理功耗量測）重現實驗的環境建置。
 
   * Milestone 1：Ubuntu 雙系統安裝於 D: 硬碟（Disk 1），C: 系統碟（Disk 0）完全未動 — Due 2026/08/01 — **已完成**
   * Milestone 2：RAPL（Intel Running Average Power Limit）可讀性驗證通過 — Due 2026/08/01 — **已完成**
