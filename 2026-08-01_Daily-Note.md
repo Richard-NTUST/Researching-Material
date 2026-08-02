@@ -1,6 +1,6 @@
 ﻿# Daily Note
 
-> 依據 `[templates/G-daily-note.md](https://github.com/raycg/Open-Research-Playbook/blob/main/templates/G-daily-note.md)` 格式記錄。
+> 依據 [templates/G-daily-note.md](https://github.com/raycg/Open-Research-Playbook/blob/main/templates/G-daily-note.md) 格式記錄。
 
 ---
 
@@ -101,7 +101,7 @@ None 前次要求的「補上證據超連結」已補上
 
 ## Recommendations for the Next Working Day Plan
 
-沿用已排定的步驟 2 三項任務（讀 Methodology/SOP → 執行重現腳本 → QC gate），這些皆有 `[吸收 David 資料流程.md](https://github.com/Richard-NTUST/Researching-Material/blob/23e9027ceef8acb15f96cb674d3abdfccaa15805/%E5%90%B8%E6%94%B6%20David%20%E8%B3%87%E6%96%99%E6%B5%81%E7%A8%8B.md)` 支持，暫無需新增建議。
+沿用已排定的步驟 2 三項任務（讀 Methodology/SOP → 執行重現腳本 → QC gate），這些皆有 [吸收 David 資料流程.md](https://github.com/Richard-NTUST/Researching-Material/blob/23e9027ceef8acb15f96cb674d3abdfccaa15805/%E5%90%B8%E6%94%B6%20David%20%E8%B3%87%E6%96%99%E6%B5%81%E7%A8%8B.md) 支持，暫無需新增建議。
 
 ## Questions for the Researcher
 
@@ -120,9 +120,9 @@ None required — 若之後每篇日誌都比照這次的「資料夾 + 超連�
 
 |Priority|Task|Related Milestone or Action Item|Expected Deliverable|
 |-|-|-|-|
-|P1|讀 `docs/FinalReport/01_Methodology_Reproducible_Measurement.md` 與 `03_Standard_Operating_Procedure.md`|`[吸收 David 資料流程.md](https://github.com/Richard-NTUST/Researching-Material/blob/23e9027ceef8acb15f96cb674d3abdfccaa15805/%E5%90%B8%E6%94%B6%20David%20%E8%B3%87%E6%96%99%E6%B5%81%E7%A8%8B.md)`|理解場景矩陣（Idle → Load-L/M/H × 3 repeats）與執行 SOP，含 troubleshooting table|
-|P2|依序啟動 Scaphandre → `iperf3 -s` → 執行 `scripts/run_week4_gap_run.sh` 跑完整 Idle→Load→Idle 序列|`[吸收 David 資料流程.md](https://github.com/Richard-NTUST/Researching-Material/blob/23e9027ceef8acb15f96cb674d3abdfccaa15805/%E5%90%B8%E6%94%B6%20David%20%E8%B3%87%E6%96%99%E6%B5%81%E7%A8%8B.md)`|產出 `markers.csv` + `power_uw.txt`（注意套用 `scaph_domain_power_microwatts` 取代 guide 原文 metric 名）|
-|P3|執行 `python scripts/analyze_week3_data.py` 產圖，並對照參考圖 `assets/2026-01-28/plots/gap_analysis_sensitivity.png` 做 QC gate|`[吸收 David 資料流程.md](https://github.com/Richard-NTUST/Researching-Material/blob/23e9027ceef8acb15f96cb674d3abdfccaa15805/%E5%90%B8%E6%94%B6%20David%20%E8%B3%87%E6%96%99%E6%B5%81%E7%A8%8B.md)`|時序圖、線性度箱型圖、統計摘要；QC 判準：Idle <10W、Load >20W、平台段平坦、markers.csv 每個事件皆有 Start/Stop|
+|P1|讀 `docs/FinalReport/01_Methodology_Reproducible_Measurement.md` 與 `03_Standard_Operating_Procedure.md`|[吸收 David 資料流程.md](https://github.com/Richard-NTUST/Researching-Material/blob/23e9027ceef8acb15f96cb674d3abdfccaa15805/%E5%90%B8%E6%94%B6%20David%20%E8%B3%87%E6%96%99%E6%B5%81%E7%A8%8B.md)|理解場景矩陣（Idle → Load-L/M/H × 3 repeats）與執行 SOP，含 troubleshooting table|
+|P2|依序啟動 Scaphandre → `iperf3 -s` → 執行 `scripts/run_week4_gap_run.sh` 跑完整 Idle→Load→Idle 序列|[吸收 David 資料流程.md](https://github.com/Richard-NTUST/Researching-Material/blob/23e9027ceef8acb15f96cb674d3abdfccaa15805/%E5%90%B8%E6%94%B6%20David%20%E8%B3%87%E6%96%99%E6%B5%81%E7%A8%8B.md)|產出 `markers.csv` + `power_uw.txt`（注意套用 `scaph_domain_power_microwatts` 取代 guide 原文 metric 名）|
+|P3|執行 `python scripts/analyze_week3_data.py` 產圖，並對照參考圖 `assets/2026-01-28/plots/gap_analysis_sensitivity.png` 做 QC gate|[吸收 David 資料流程.md](https://github.com/Richard-NTUST/Researching-Material/blob/23e9027ceef8acb15f96cb674d3abdfccaa15805/%E5%90%B8%E6%94%B6%20David%20%E8%B3%87%E6%96%99%E6%B5%81%E7%A8%8B.md)|時序圖、線性度箱型圖、統計摘要；QC 判準：Idle <10W、Load >20W、平台段平坦、markers.csv 每個事件皆有 Start/Stop|
 
 ---
 
