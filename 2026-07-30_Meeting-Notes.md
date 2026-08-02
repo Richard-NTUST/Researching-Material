@@ -32,12 +32,12 @@
 |會議主持與語言慣例|首次會議不確定主持人，Richard 自願先開始；Ray 表示直接開始、不用過多寒暄。Richard 以中文報告（不確定何時須明確使用英文，會後已向 Kevin 請教）|
 |Richard 的銜接進度|Ray 交代：TEEP David 將於 0820 離開，之後無人可再教 Richard，須趁 David 還在台灣時盡快學習。Richard 報告時承諾會將簡報放上 git 並以雲端硬碟共享（已執行）|
 |Ray 要求全員撰寫專題目標與規劃並貼上群組|依圖片1截圖，Ray 原文|
-|會議紀錄規範|Ray 要求所有人今天都要有 meeting 紀錄；Kevin 與 Kuan（大四生）作為示範，將自己的成果連結丟上群組。**證據（<img width="972" height="652" alt="圖片1" src="https://github.com/user-attachments/assets/660a6d0d-e806-4b2d-a7c1-bbcccc825590" />）**：Kevin 貼出 https://github.com/bmw-ece-ntust/Kevin\_Handover\_note/issues/2#issuecomment-5128652454 ；Kuan 貼出 https://github.com/Kuan-K/Metanoia\_intern\_kuan2026/issues/2#issue-5018378510|
+|會議紀錄規範|Ray 要求所有人今天都要有 meeting 紀錄；Kevin 與 Kuan（大四生）作為示範，將自己的成果連結丟上群組。**證據（圖片1）**：Kevin 貼出 https://github.com/bmw-ece-ntust/Kevin\_Handover\_note/issues/2#issuecomment-5128652454 ；Kuan（吳亭寬）貼出 https://github.com/Kuan-K/Metanoia\_intern\_kuan2026/issues/2#issue-5018378510|
 |下次會議與週期|下次開會 2026/08/06 14:00，同一 Teams 連結；之後改為每週固定開會，出席人員不變|
 |程式能力佐證（CV / EURECOM）|Ray 對要去 EURECOM 時習的 Kuan、Kevin 提醒，應繳交 CV 並佐證程式能力。與 Kevin\_meeting\_notes.md / kuan\_meeting\_notes.md 記錄相同，這裡以 Kevin/Kuan 自己的記錄版本為準。此為大四生的實習相關事宜，不屬於 Richard 的追蹤範圍，僅記錄備查。Richard 自己延伸思考：未來若要透過 Ray 取得實習機會或出國，也需要程式能力佐證，想準備 LeetCode——此為 Richard 自身想法，非會議正式指派要求，且明確不急、無時間壓力（Richard 自評重要性類比多益金證：有更好，沒有也沒差）|
 |專題初稿單期程|2026/08/15–2026/08/30 須完成專題初稿單，即 `01\_專題規劃與日誌\_學生姓名.md` 的內容|
 |會議未錄影|本次會議未錄影，確認為 Ray 的疏忽，下次要讓 Winnie 教學實驗室 teams 的操作。如圖片2截圖|
-|日誌與筆記的定位（Ray 於 7/31 補充說明）|**<img width="1435" height="608" alt="圖片2" src="https://github.com/user-attachments/assets/050b9ad7-2eac-4cb6-8fe5-aea65a0a414f" />，非 0730 會議當下發生，但與本次會議的日誌規範討論直接相關。Ray 對「用 LLM 做 Daily Note + AI self-review」這個做法的直接背書**|
+|日誌與筆記的定位（Ray 於 7/31 補充說明）|**圖片2，非 0730 會議當下發生，但與本次會議的日誌規範討論直接相關。Ray 對「用 LLM 做 Daily Note + AI self-review」這個做法的直接背書**|
 
 \---
 
@@ -45,7 +45,7 @@
 
 |Task|Owner|Measurable Deliverable|Due Date|Evidence|
 |-|-|-|-|-|
-|完成 "01\_專題規劃與日誌\_學生姓名" 的填寫|所有大三專題生|每週四的此會議追蹤進度|2026/08/15–2026/08/30（同專題初稿單期程）|<img width="972" height="652" alt="圖片1" src="https://github.com/user-attachments/assets/0f08c9b1-7eff-4432-9b0a-438f78ffd661" />（Ray 的訊息） 目前尚未開始填寫|
+|完成 "01\_專題規劃與日誌\_學生姓名" 的填寫|所有大三專題生|每週四的此會議追蹤進度|2026/08/15–2026/08/30（同專題初稿單期程）|圖片1（Ray 的訊息） 目前尚未開始填寫|
 |將本次報告簡報上傳 git，並以雲端硬碟共享連結|Richard|1、git 的連結<br /><br />2、雲端硬碟連結|會議中承諾未定具體日期；**已於 2026/08/02 完成**|slide 的雲端硬碟<br />https://drive.google.com/drive/folders/1sbwMuZ9JFnSgbpV1H1Sk9prdpTfB02wV?usp=drive\_link<br /><br />Richard 的 git https://github.com/Richard-NTUST/Researching-Material.git|
 |EURECOM 事項：確認 Programming 能力或與 Prof. Navi 進行 interview|Kevin/Kuan|與 Prof. Ray 討論的紀錄 / 確定與 Prof. Navi 面試的時間排程|未知，不在 Richard 的負責範圍|N/A — 謹記載，詳細當事人 meeting notes|
 |Prof. Gu 來台住宿問題，向 Winnie 請教|Kuan（來源：kuan\_meeting\_notes.md）|跟 Winnie 確定租借流程|8/20|N/A — 同上，僅 Kuan 自己的筆記有記，Kevin 版沒有這項|
